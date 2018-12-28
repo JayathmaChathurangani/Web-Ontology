@@ -1,0 +1,1505 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2018/11/cv-ontology.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2018/11/cv-ontology.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2018/11/cv-ontology.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <ObjectProperty IRI="#hasEducation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#qualification-ocjp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#work-history-intern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Educational_Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Achievements"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#person-jayathma"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#skillLevel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skill-ballerinalang"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#startDate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#edu-unit-sliit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#qualificationName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#edu-exam-bsc-se"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#referee-two"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#educationUnitType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#project-ceylonguide"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#achievedIn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skill-english"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Education"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#References"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#projectYear"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ObtainedFrom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#project-patient-managment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#endDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExtraActivities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#edu-unit-visakhav"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CV"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#achievementYear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#organization-wso2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#studiedIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#jobDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#refereeDesignation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#engagedIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Work_History"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#employedIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#skillName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extra_Curricular_Activities"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#qualificationYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#refereeContact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skill-leadership"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAchievements"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#examinationYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#activityDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#organizationLocation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#achievement-longjump"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#refereeAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skills"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#contactNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Company"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skill-sinhala"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReferences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#civilStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soft"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProfessionalQualifications"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#achievement-singing"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#examName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#projectDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#jobPosition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#achievementDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#activityYear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Professional_Qualifications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Projects"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#qualification-ccna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#edu-unit-uok"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skill-nodejs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#examResult"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAbout"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#referee-one"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#completedIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gender"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#extra-Ieee-secretary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skill-teamwork"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skill-reactjs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skill-problemsolving"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technical"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProjects"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skill-java"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CV_Entry"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#organizationName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#extra-ieee-ambassador"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSkill"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#achievementTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#birthday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#edu-exam-al"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#refereeName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWorkHistory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cv-jayathma"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Achievements"/>
+        <Class IRI="#CV_Entry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Company"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Education"/>
+        <Class IRI="#CV_Entry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Educational_Unit"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extra_Curricular_Activities"/>
+        <Class IRI="#CV_Entry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Language"/>
+        <Class IRI="#Skills"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class IRI="#CV_Entry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Professional_Qualifications"/>
+        <Class IRI="#CV_Entry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Projects"/>
+        <Class IRI="#CV_Entry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#References"/>
+        <Class IRI="#CV_Entry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skills"/>
+        <Class IRI="#CV_Entry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soft"/>
+        <Class IRI="#Skills"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technical"/>
+        <Class IRI="#Skills"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Work_History"/>
+        <Class IRI="#CV_Entry"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Achievements"/>
+        <NamedIndividual IRI="#achievement-longjump"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#achievement-longjump"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Achievements"/>
+        <NamedIndividual IRI="#achievement-singing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#achievement-singing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#edu-exam-al"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Education"/>
+        <NamedIndividual IRI="#edu-exam-al"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#edu-exam-bsc-se"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Education"/>
+        <NamedIndividual IRI="#edu-exam-bsc-se"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#edu-unit-sliit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Educational_Unit"/>
+        <NamedIndividual IRI="#edu-unit-sliit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organization"/>
+        <NamedIndividual IRI="#edu-unit-sliit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#edu-unit-uok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Educational_Unit"/>
+        <NamedIndividual IRI="#edu-unit-uok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organization"/>
+        <NamedIndividual IRI="#edu-unit-uok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#edu-unit-visakhav"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Educational_Unit"/>
+        <NamedIndividual IRI="#edu-unit-visakhav"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organization"/>
+        <NamedIndividual IRI="#edu-unit-visakhav"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#extra-Ieee-secretary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Extra_Curricular_Activities"/>
+        <NamedIndividual IRI="#extra-Ieee-secretary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#extra-ieee-ambassador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Extra_Curricular_Activities"/>
+        <NamedIndividual IRI="#extra-ieee-ambassador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#organization-wso2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Company"/>
+        <NamedIndividual IRI="#organization-wso2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organization"/>
+        <NamedIndividual IRI="#organization-wso2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#person-jayathma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#person-jayathma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#project-ceylonguide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Projects"/>
+        <NamedIndividual IRI="#project-ceylonguide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#project-patient-managment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Projects"/>
+        <NamedIndividual IRI="#project-patient-managment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#qualification-ccna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professional_Qualifications"/>
+        <NamedIndividual IRI="#qualification-ccna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#qualification-ocjp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professional_Qualifications"/>
+        <NamedIndividual IRI="#qualification-ocjp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#referee-one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#References"/>
+        <NamedIndividual IRI="#referee-one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#referee-two"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#References"/>
+        <NamedIndividual IRI="#referee-two"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#skill-ballerinalang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skills"/>
+        <NamedIndividual IRI="#skill-ballerinalang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technical"/>
+        <NamedIndividual IRI="#skill-ballerinalang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#skill-english"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Language"/>
+        <NamedIndividual IRI="#skill-english"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skills"/>
+        <NamedIndividual IRI="#skill-english"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#skill-java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skills"/>
+        <NamedIndividual IRI="#skill-java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technical"/>
+        <NamedIndividual IRI="#skill-java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#skill-leadership"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skills"/>
+        <NamedIndividual IRI="#skill-leadership"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Soft"/>
+        <NamedIndividual IRI="#skill-leadership"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#skill-nodejs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skills"/>
+        <NamedIndividual IRI="#skill-nodejs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technical"/>
+        <NamedIndividual IRI="#skill-nodejs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#skill-problemsolving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skills"/>
+        <NamedIndividual IRI="#skill-problemsolving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Soft"/>
+        <NamedIndividual IRI="#skill-problemsolving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#skill-reactjs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skills"/>
+        <NamedIndividual IRI="#skill-reactjs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technical"/>
+        <NamedIndividual IRI="#skill-reactjs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#skill-sinhala"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Language"/>
+        <NamedIndividual IRI="#skill-sinhala"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skills"/>
+        <NamedIndividual IRI="#skill-sinhala"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#skill-teamwork"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skills"/>
+        <NamedIndividual IRI="#skill-teamwork"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Soft"/>
+        <NamedIndividual IRI="#skill-teamwork"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CV_Entry"/>
+        <NamedIndividual IRI="#work-history-intern"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Work_History"/>
+        <NamedIndividual IRI="#work-history-intern"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#achievedIn"/>
+        <NamedIndividual IRI="#achievement-longjump"/>
+        <NamedIndividual IRI="#edu-unit-visakhav"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#achievedIn"/>
+        <NamedIndividual IRI="#achievement-singing"/>
+        <NamedIndividual IRI="#edu-unit-visakhav"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAchievements"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#achievement-longjump"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAchievements"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#achievement-singing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEducation"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#edu-exam-al"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEducation"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#edu-exam-bsc-se"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExtraActivities"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#extra-Ieee-secretary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExtraActivities"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#extra-ieee-ambassador"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProfessionalQualifications"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#qualification-ccna"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProfessionalQualifications"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#qualification-ocjp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProjects"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#project-ceylonguide"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProjects"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#project-patient-managment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasReferences"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#referee-one"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasReferences"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#referee-two"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSkill"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#skill-ballerinalang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSkill"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#skill-english"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSkill"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#skill-java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSkill"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#skill-leadership"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSkill"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#skill-nodejs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSkill"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#skill-problemsolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSkill"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#skill-reactjs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSkill"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#skill-sinhala"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSkill"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#skill-teamwork"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWorkHistory"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#work-history-intern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAbout"/>
+        <NamedIndividual IRI="#cv-jayathma"/>
+        <NamedIndividual IRI="#person-jayathma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#studiedIn"/>
+        <NamedIndividual IRI="#edu-exam-al"/>
+        <NamedIndividual IRI="#edu-unit-visakhav"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#studiedIn"/>
+        <NamedIndividual IRI="#edu-exam-bsc-se"/>
+        <NamedIndividual IRI="#edu-unit-uok"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagedIn"/>
+        <NamedIndividual IRI="#extra-Ieee-secretary"/>
+        <NamedIndividual IRI="#edu-unit-uok"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#engagedIn"/>
+        <NamedIndividual IRI="#extra-ieee-ambassador"/>
+        <NamedIndividual IRI="#edu-unit-uok"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#completedIn"/>
+        <NamedIndividual IRI="#project-ceylonguide"/>
+        <NamedIndividual IRI="#edu-unit-uok"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#completedIn"/>
+        <NamedIndividual IRI="#project-patient-managment"/>
+        <NamedIndividual IRI="#edu-unit-uok"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ObtainedFrom"/>
+        <NamedIndividual IRI="#qualification-ccna"/>
+        <NamedIndividual IRI="#edu-unit-sliit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ObtainedFrom"/>
+        <NamedIndividual IRI="#qualification-ocjp"/>
+        <NamedIndividual IRI="#edu-unit-sliit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#employedIn"/>
+        <NamedIndividual IRI="#work-history-intern"/>
+        <NamedIndividual IRI="#organization-wso2"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#achievementDescription"/>
+        <NamedIndividual IRI="#achievement-longjump"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Colombo District Schools Track and Field Event Championship</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#achievementTitle"/>
+        <NamedIndividual IRI="#achievement-longjump"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Long Jump - Under 13 Champion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#achievementYear"/>
+        <NamedIndividual IRI="#achievement-longjump"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-19T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#achievementDescription"/>
+        <NamedIndividual IRI="#achievement-singing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Colombo District Schools Competition</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#achievementTitle"/>
+        <NamedIndividual IRI="#achievement-singing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Senior Group Singing - first runners up</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#achievementYear"/>
+        <NamedIndividual IRI="#achievement-singing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-21T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#examName"/>
+        <NamedIndividual IRI="#edu-exam-al"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">GCE Advanced Level</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#examResult"/>
+        <NamedIndividual IRI="#edu-exam-al"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mathematics Stream - 2As 1C</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#examinationYear"/>
+        <NamedIndividual IRI="#edu-exam-al"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-31T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#examName"/>
+        <NamedIndividual IRI="#edu-exam-bsc-se"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Bsc. (Special) Honours Software Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#examResult"/>
+        <NamedIndividual IRI="#edu-exam-bsc-se"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">GPA - 3.77</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#examinationYear"/>
+        <NamedIndividual IRI="#edu-exam-bsc-se"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-31T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#educationUnitType"/>
+        <NamedIndividual IRI="#edu-unit-sliit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">University</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#organizationLocation"/>
+        <NamedIndividual IRI="#edu-unit-sliit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Colombo 03</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#organizationName"/>
+        <NamedIndividual IRI="#edu-unit-sliit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sri Lanka Institute of Information Technology</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#educationUnitType"/>
+        <NamedIndividual IRI="#edu-unit-uok"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">University</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#organizationLocation"/>
+        <NamedIndividual IRI="#edu-unit-uok"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kelaniya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#organizationName"/>
+        <NamedIndividual IRI="#edu-unit-uok"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">University of Kelaniya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#educationUnitType"/>
+        <NamedIndividual IRI="#edu-unit-visakhav"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">School</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#organizationLocation"/>
+        <NamedIndividual IRI="#edu-unit-visakhav"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Colombo 05</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#organizationLocation"/>
+        <NamedIndividual IRI="#edu-unit-visakhav"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Visakha Vidyalaya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#activityDescription"/>
+        <NamedIndividual IRI="#extra-Ieee-secretary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Secretary - IEEE Student Branch of University of Kelaniya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#activityYear"/>
+        <NamedIndividual IRI="#extra-Ieee-secretary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-31T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#activityDescription"/>
+        <NamedIndividual IRI="#extra-ieee-ambassador"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">IEEE Day Ambassador - IEEE Sri Lanka Section</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#activityYear"/>
+        <NamedIndividual IRI="#extra-ieee-ambassador"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-12T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#organizationLocation"/>
+        <NamedIndividual IRI="#organization-wso2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Colombo 03</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#organizationName"/>
+        <NamedIndividual IRI="#organization-wso2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">WSO2 Lanka (pvt) Ltd</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#person-jayathma"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">53/1, Polwatta, Pannipitiya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#birthday"/>
+        <NamedIndividual IRI="#person-jayathma"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1994-01-14T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#civilStatus"/>
+        <NamedIndividual IRI="#person-jayathma"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Single</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contactNumber"/>
+        <NamedIndividual IRI="#person-jayathma"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">(+94)-771156670</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#email"/>
+        <NamedIndividual IRI="#person-jayathma"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ejcjayathma@gmail.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#person-jayathma"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#person-jayathma"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Jayathma Chathurangani</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#projectDescription"/>
+        <NamedIndividual IRI="#project-ceylonguide"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Web application to guide Ceylon Explorers</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#projectYear"/>
+        <NamedIndividual IRI="#project-ceylonguide"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-30T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#projectDescription"/>
+        <NamedIndividual IRI="#project-patient-managment"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Patient Management for Anti Filariasis Campaign</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#projectYear"/>
+        <NamedIndividual IRI="#project-patient-managment"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-31T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qualificationName"/>
+        <NamedIndividual IRI="#qualification-ccna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CCNA - Routing and Switching</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qualificationYear"/>
+        <NamedIndividual IRI="#qualification-ccna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2017-03-30T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qualificationName"/>
+        <NamedIndividual IRI="#qualification-ocjp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Oracle Certified Java Programmer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qualificationYear"/>
+        <NamedIndividual IRI="#qualification-ocjp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2016-08-30T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#refereeAddress"/>
+        <NamedIndividual IRI="#referee-one"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">University of Kelaniya, Sri Lanka</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#refereeContact"/>
+        <NamedIndividual IRI="#referee-one"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">(+94)771234560</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#refereeDesignation"/>
+        <NamedIndividual IRI="#referee-one"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Senior Lecturer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#refereeName"/>
+        <NamedIndividual IRI="#referee-one"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Dr. Chamli Pushpakumara</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#refereeAddress"/>
+        <NamedIndividual IRI="#referee-two"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">University of Kelaniya, Sri Lanka</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#refereeContact"/>
+        <NamedIndividual IRI="#referee-two"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">(+94)771234567</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#refereeDesignation"/>
+        <NamedIndividual IRI="#referee-two"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Senior Lecturer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#refereeName"/>
+        <NamedIndividual IRI="#referee-two"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Dr. Nalin Warnajith</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skillLevel"/>
+        <NamedIndividual IRI="#skill-ballerinalang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Excellent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skillName"/>
+        <NamedIndividual IRI="#skill-ballerinalang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ballerina Programming language</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skillName"/>
+        <NamedIndividual IRI="#skill-english"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">English Language</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skillLevel"/>
+        <NamedIndividual IRI="#skill-java"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Excellent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skillName"/>
+        <NamedIndividual IRI="#skill-java"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Java</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skillName"/>
+        <NamedIndividual IRI="#skill-leadership"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Leadership</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skillLevel"/>
+        <NamedIndividual IRI="#skill-nodejs"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Basic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skillName"/>
+        <NamedIndividual IRI="#skill-nodejs"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Nodejs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skillName"/>
+        <NamedIndividual IRI="#skill-problemsolving"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Problem Solving</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skillLevel"/>
+        <NamedIndividual IRI="#skill-reactjs"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Intermediate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skillName"/>
+        <NamedIndividual IRI="#skill-reactjs"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Reactjs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skillName"/>
+        <NamedIndividual IRI="#skill-sinhala"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sinhala Language</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skillName"/>
+        <NamedIndividual IRI="#skill-teamwork"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Teamwork</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#endDate"/>
+        <NamedIndividual IRI="#work-history-intern"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-28T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jobDescription"/>
+        <NamedIndividual IRI="#work-history-intern"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Developed an application to resolve third party library dependencies in WSO2 products</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jobPosition"/>
+        <NamedIndividual IRI="#work-history-intern"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Software Engineering Intern</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#startDate"/>
+        <NamedIndividual IRI="#work-history-intern"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-01T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ObtainedFrom"/>
+        <Class IRI="#Professional_Qualifications"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#achievedIn"/>
+        <Class IRI="#Achievements"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#completedIn"/>
+        <Class IRI="#Projects"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#employedIn"/>
+        <Class IRI="#Work_History"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#engagedIn"/>
+        <Class IRI="#Extra_Curricular_Activities"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAchievements"/>
+        <Class IRI="#CV"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEducation"/>
+        <Class IRI="#CV"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExtraActivities"/>
+        <Class IRI="#CV"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProfessionalQualifications"/>
+        <Class IRI="#CV"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProjects"/>
+        <Class IRI="#CV"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReferences"/>
+        <Class IRI="#CV"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSkill"/>
+        <Class IRI="#CV"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWorkHistory"/>
+        <Class IRI="#CV"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAbout"/>
+        <Class IRI="#CV"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#studiedIn"/>
+        <Class IRI="#Education"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ObtainedFrom"/>
+        <Class IRI="#Educational_Unit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#achievedIn"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#completedIn"/>
+        <Class IRI="#Educational_Unit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#employedIn"/>
+        <Class IRI="#Company"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#engagedIn"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAchievements"/>
+        <Class IRI="#Achievements"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEducation"/>
+        <Class IRI="#Education"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasExtraActivities"/>
+        <Class IRI="#Extra_Curricular_Activities"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProfessionalQualifications"/>
+        <Class IRI="#Professional_Qualifications"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProjects"/>
+        <Class IRI="#Projects"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReferences"/>
+        <Class IRI="#References"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSkill"/>
+        <Class IRI="#Skills"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWorkHistory"/>
+        <Class IRI="#Work_History"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAbout"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#studiedIn"/>
+        <Class IRI="#Educational_Unit"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#achievementDescription"/>
+        <Class IRI="#Achievements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#achievementTitle"/>
+        <Class IRI="#Achievements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#achievementYear"/>
+        <Class IRI="#Achievements"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#activityDescription"/>
+        <Class IRI="#Extra_Curricular_Activities"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#activityYear"/>
+        <Class IRI="#Extra_Curricular_Activities"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#address"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#birthday"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#civilStatus"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#contactNumber"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#educationUnitType"/>
+        <Class IRI="#Educational_Unit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#email"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#endDate"/>
+        <Class IRI="#Work_History"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#examName"/>
+        <Class IRI="#Education"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#examResult"/>
+        <Class IRI="#Education"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#examinationYear"/>
+        <Class IRI="#Education"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#gender"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#jobDescription"/>
+        <Class IRI="#Work_History"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#jobPosition"/>
+        <Class IRI="#Work_History"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#organizationLocation"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#organizationName"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#projectDescription"/>
+        <Class IRI="#Projects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#projectYear"/>
+        <Class IRI="#Projects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#qualificationName"/>
+        <Class IRI="#Professional_Qualifications"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#qualificationYear"/>
+        <Class IRI="#Professional_Qualifications"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#refereeAddress"/>
+        <Class IRI="#References"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#refereeContact"/>
+        <Class IRI="#References"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#refereeDesignation"/>
+        <Class IRI="#References"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#refereeName"/>
+        <Class IRI="#References"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#skillLevel"/>
+        <Class IRI="#Technical"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#skillName"/>
+        <Class IRI="#Skills"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#startDate"/>
+        <Class IRI="#Work_History"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#achievementDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#achievementTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#achievementYear"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#activityDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#activityYear"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#birthday"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#civilStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#contactNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#educationUnitType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#endDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#examName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#examResult"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#examinationYear"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#gender"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#jobDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#jobPosition"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#organizationLocation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#organizationName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#projectDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#projectYear"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#qualificationName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#qualificationYear"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#refereeAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#refereeContact"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#refereeDesignation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#refereeName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#skillLevel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#skillName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#startDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
